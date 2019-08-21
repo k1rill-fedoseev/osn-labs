@@ -1,0 +1,7 @@
+   17  history
+   18  clear
+   19  ls /usr/bin | grep gcc | sort -r > ./ex1.txt 
+   20  cat ./ex1.txt 
+   21  echo "Hi"
+   22  history
+   23  history > ./ex2.txt
