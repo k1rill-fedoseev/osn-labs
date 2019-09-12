@@ -27,7 +27,6 @@ int main(){
         while ((argv[argc++] = strtok(NULL, " \n"))) {
         }
         argc--;
-        printf("%s;%s;%s;\n", argv[0], argv[1], argv[2]);
 
         // handle background
         if ((strcmp(argv[argc - 1], "&") == 0)) {
