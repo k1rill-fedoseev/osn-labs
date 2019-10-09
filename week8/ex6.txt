@@ -1,0 +1,4 @@
+address is 16 bit
+page size is 8 KB => 3 + 10 = 13 bits are needed for the offset
+16 - 13 = 3 bits for page number
+2^3 = 8 pages

@@ -1,0 +1,4 @@
+What is the difference between a physical and a virtual address?
+
+Physical address is the exact address of the memory cell in RAM. Knowing physical address, you now exactly where data is located on physical memory.
+Virtual address is an address within program address space, virtual address belongs to some page in virtual memory, and used pages of virtual memory are backed by primary or secondary memory.
