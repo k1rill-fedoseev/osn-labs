@@ -1,0 +1,9 @@
+Consider file my_input_dec.txt and my_input_inc.txt, let us take number of frames to be equal 3
+
+In my_input_inc.txt, hit rate is 60%, 2 pages are referenced regularly, and other 
+two are referenced seldomly, so the regularly used pages are not removed from page 
+frames, and only seldomly used pages are swapped, which results in high hit ratio.
+
+In my_input_dec.txt, hit rate is 0%, all 4 pages are referenced regularly, and it 
+happens so that every next referenced page gets placed in frame where another 
+regularly used page is placed, which results in many swaps.
