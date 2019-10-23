@@ -10,3 +10,12 @@ week10 kirillfedoseev$ ls -l _ex3.txt
 week10 kirillfedoseev$ chmod g=u _ex3.txt 
 week10 kirillfedoseev$ ls -l _ex3.txt 
 -rwxrwxrwx  1 kirillfedoseev  staff  0 23 Oct 13:35 _ex3.txt
+
+
+
+What does 660 mean for ex3.txt?
+-rw-rw---- means only owner and group members can read/write file
+What does 775 mean for ex3.txt?
+-rwxrwxr-x means everyone can read/execute, only owner and group members can write file
+What does 777 mean for ex3.txt?
+-rwxrwxrwx means everyone can do everything
