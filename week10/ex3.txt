@@ -1,0 +1,12 @@
+week10 kirillfedoseev$ touch _ex3.txt
+week10 kirillfedoseev$ ls -l _ex3.txt 
+-rw-r--r--  1 kirillfedoseev  staff  0 23 Oct 13:34 _ex3.txt
+week10 kirillfedoseev$ chmod 666 _ex3.txt 
+week10 kirillfedoseev$ ls -l _ex3.txt 
+-rw-rw-rw-  1 kirillfedoseev  staff  0 23 Oct 13:35 _ex3.txt
+week10 kirillfedoseev$ chmod 707 _ex3.txt 
+week10 kirillfedoseev$ ls -l _ex3.txt 
+-rwx---rwx  1 kirillfedoseev  staff  0 23 Oct 13:35 _ex3.txt
+week10 kirillfedoseev$ chmod g=u _ex3.txt 
+week10 kirillfedoseev$ ls -l _ex3.txt 
+-rwxrwxrwx  1 kirillfedoseev  staff  0 23 Oct 13:35 _ex3.txt

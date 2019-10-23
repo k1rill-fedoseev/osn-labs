@@ -1,0 +1,9 @@
+week10 kirillfedoseev$ link ../week1/file.txt _ex2.txt
+week10 kirillfedoseev$ ls
+week10 kirillfedoseev$ ls -i ./_ex2.txt 
+45048915 ./_ex2.txt
+week10 kirillfedoseev$ find ../ -inum 45048915
+..//week1/file.txt
+..//week10/_ex2.txt
+week10 kirillfedoseev$ find ../ -inum 45048915 -exec rm {} \;
+week10 kirillfedoseev$ find ../ -inum 45048915
