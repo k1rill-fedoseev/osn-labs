@@ -1,0 +1,2 @@
+In the first case, Hello is still in the buffer when the fork system call is executed, so it will be placed in the buffers of two processes, hence Hello will be printed from both of them.
+In the second case, the buffer is flushed before fork call, so Hello is printed only once, in the parent process.
