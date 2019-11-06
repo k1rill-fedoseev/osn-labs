@@ -1,0 +1,16 @@
+5.84 GB file
+
+BUF_SIZE=1000000
+7.5 sec
+
+BUF_SIZE=1024
+37.3 sec
+
+BUF_SIZE=32
+14 min 54 sec
+
+
+Obviously, the more buffer size you take, the less time operation requires, 
+since for I/O operations time for writing small and big pieces of information is not that much different.
+
+Adding SYNC increases timings on 50% approximately.
